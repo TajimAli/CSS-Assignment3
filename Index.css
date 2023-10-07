@@ -1,0 +1,192 @@
+body{
+    background-color: gray;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+    .box1{
+        height: 120px;
+        width: 300px;
+        border: 5px solid red;
+        border-radius: 10px;
+        color: brown;
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+        background-color: white;
+        justify-content: center;
+        display: flex;
+        font-weight: 750;
+        line-height: 35px;
+        text-shadow: 2px 2px rgb(255, 3, 3);
+        box-shadow: 5px 5px rgb(107, 14, 107);
+    }
+
+    .container1{
+        width: 400px;
+        height: 40px;
+        display: flex;
+        padding: 15px;
+        font-size: 20px;
+        position: fixed;
+        font-weight: 600;
+        font-style: italic;
+        text-align: center;
+        z-index: 3;
+        border-radius: 10px;
+        margin: 240px 450px;
+        border: 5px solid red;
+        color: rgb(173, 23, 23);
+        justify-content: space-between;
+        background-color: greenyellow;
+        box-shadow: 5px 5px rgb(107, 14, 107);
+        }
+
+    .container2{
+        width: 99%;
+        height: 590px;
+        position: relative;
+        border-radius: 10px;
+        border: 7px solid green;
+        }
+        
+    .box2{
+        height: 170px;
+        width: 200px;
+        border: 7px solid red;
+        border-radius: 10px;
+        color: rgb(107, 14, 107);
+        background-color: white;
+        text-align: center;
+        font-weight: 750;
+        font-size: 20px;
+        line-height: 40px;
+        text-shadow: 1px 1px rgb(107, 14, 107);
+        box-shadow: 5px 5px rgb(107, 14, 107);
+    }
+    /* .box3{
+        width: 200px;
+        height: 170px;
+        border: 4px solid red;
+        background-color: white;
+        right: auto;
+        
+        
+    } */
+    .box3{
+    right: 40px;
+    width: 220px;
+    height: 205px;
+    top: 2px;
+    background-color: white;
+    padding-top: 30px;
+    text-align: center;
+    position: absolute;
+    border-radius: 10px;
+    border: 7px solid rgb(255, 0, 0);
+    box-shadow: 5px 5px rgb(107, 14, 107);
+    }
+   
+    /* .box4{
+    width: 395px;
+    height: 230px;
+    font-weight: 700;
+    background-color: rgb(233, 221, 110);
+    }
+    .box5{
+        width: 395px;
+    height: 230px;
+    background-color: rgb(233, 221, 110);
+    } */
+
+    .container3{
+        top: 330px;
+        bottom: 0px;
+        width: 250px;
+        height: 235px;
+        /* text-align: center; */
+        font-size: 25px;
+        background: white;
+        font-weight: 700;
+        position: absolute;
+        border-radius: 10px;
+        border: 5px solid rgb(255, 0, 0);
+        box-shadow: 7px 7px rgb(107, 14, 107);
+        text-shadow: 2px 2px rgb(130, 6, 128);
+    }
+
+    .container4{
+        top: 330px;
+        right: 40px;
+        bottom: 10px;
+        width: 250px;
+        height: 235px;
+        background: white;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 12px;
+        text-align: center;
+        position: absolute;
+        border-radius: 10px;
+        border: 5px solid rgb(255, 0, 0);
+        box-shadow: 7px 7px rgb(107, 14, 107);
+        text-shadow: 2px 2px rgb(130, 6, 128);
+    }
+
+    .btn{
+        background: red;
+        border-radius: 10px;
+        color: solid black;
+    }
+
+    input{
+        width: 100px;
+        text-align: center;
+    }
+
+    .container5{
+        display: flex;
+        position: static;
+        justify-content: center;
+    }
+    .container6{
+        width: 800px;
+        height: 540px;
+        margin: 20px 0px;
+        text-align: center;
+        /* font-style: italic; */
+        background-color: green;
+        border: 7px solid rgb(107, 14, 107);
+    }
+    .container7{
+        display: flex;
+        justify-content: space-around;
+        font-style: italic;
+    }
+    .container7 p{
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .box7{
+        width: 395px;
+        height: 230px;
+        font-weight: 700;
+        background-color: rgb(233, 221, 110);
+    }
+    .box8{
+        width: 395px;
+        height: 230px;
+        background-color: rgb(233, 221, 110);
+    
+    }
+    .box9{
+        width: 101%;
+        margin: 8px 0px;
+        font-weight: 600;
+        font-style: italic;
+        padding: 3px 0px;
+        line-height: 30px;
+        background-color: rgb(233, 221, 110);
+    }
